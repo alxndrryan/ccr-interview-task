@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  color: #b3b3b3;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  color: #b3b3b3;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #232324;
+}
+
+/* Main Content */
+
+.inner-main {
+  border: solid;
+}
+
+hr {
+  border: 1px solid #c4c4c4;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 1% 0;
+  background-color: #232324;
+  border-top: 2px solid #777777;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-evenly;
+}
