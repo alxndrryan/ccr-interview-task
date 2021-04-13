@@ -76,3 +76,16 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
+
+/* Mobile */
+
+@media (max-width: 780px) {
+  .hide-sm {
+    display: none;
+  }
+
+  div.container.nav-container {
+    display: flex;
+    justify-content: center;
+  }
+}
