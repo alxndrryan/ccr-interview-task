@@ -30,6 +30,15 @@ a {
   background-color: #232324;
 }
 
+.nav-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.links {
+  display: flex;
+}
+
 /* Main Content */
 
 .outer-main {

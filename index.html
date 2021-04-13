@@ -16,44 +16,31 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <h1 href="#">CRR-Logo</h1>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Stuff</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="enter search item"
-              aria-label="Search"
-            />
-          </form>
+
+    <nav>
+      <div class="container-fluid navbar">
+        <div class="container nav-container">
+          <div>
+            <h1>CRR-Logo</h1>
+          </div>
+          <div class="links">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Stuff</a>
+            <form class="d-flex nav-link">
+              <input
+                type="search"
+                placeholder="enter search item"
+                aria-label="Search"
+              />
+            </form>
+          </div>
         </div>
       </div>
     </nav>
+
     <!-- Main -->
+
     <div class="container outer-main">
       <h2>Main Title</h2>
       <div class="container inner-main">
@@ -82,7 +69,9 @@
         </ul>
       </div>
     </div>
+
     <!-- Footer -->
+
     <div class="box"></div>
     <footer class="footer">
       <nav class="navbar navbar-expand-lg">
