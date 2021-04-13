@@ -47,6 +47,15 @@ hr {
 
 /* Footer */
 
+.box {
+  flex: 1 1 auto;
+  height: 50px;
+
+  display: flex;
+  flex-flow: column;
+  /* height: 100%; */
+}
+
 footer {
   background-color: #232324;
   bottom: 0;
